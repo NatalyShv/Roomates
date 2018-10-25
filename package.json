@@ -28,6 +28,17 @@
    "scripts": {
     "start": "node server.js"
   },
+   "dependencies": {
+    "chalk": "^1.0.0",
+    "connect": "^3.3.4",
+    "connect-livereload": "^0.5.3",
+    "debug": "^2.1.1",
+    "deepmerge": "~0.2.7",
+    "event-stream": "~3.2.1",
+    "q": "^1.2.0",
+    "serve-static": "^1.9.1",
+    "tiny-lr": "^1.0.3"
+  },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
     "@angular/cli": "~6.1.1",
