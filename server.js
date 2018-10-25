@@ -4,7 +4,7 @@ var path = require('path');
 var connect = require('connect');
 var serveStatic = require('serve-static');
 
-    console.log('V1');
+    console.log('V1.1');
 
 
 app.get('/', function(req, res) {
