@@ -16,4 +16,4 @@ app.get('/app', function(req, res) {
     res.sendFile(path.join('roomate/src/app/app.component.html'));
 });
 
-app.use('/roomates', express.static('roomate/'));
+//app.use('/roomates', express.static('roomate/'));
