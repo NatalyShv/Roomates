@@ -23,13 +23,8 @@
     "angular-in-memory-web-api": "^0.6.1",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
-    "zone.js": "~0.8.26"
-  },
-   "scripts": {
-    "start": "node server.js"
-  },
-   "dependencies": {
-       "@angular-devkit/build-angular": "~0.7.0",
+    "zone.js": "~0.8.26",
+    "@angular-devkit/build-angular": "~0.7.0",
     "@angular/cli": "~6.1.1",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
@@ -58,5 +53,8 @@
     "q": "^1.2.0",
     "serve-static": "^1.9.1",
     "tiny-lr": "^1.0.3"
+  },
+    "scripts": {
+    "start": "node server.js"
   }
 }
