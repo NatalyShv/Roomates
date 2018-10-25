@@ -15,9 +15,6 @@ a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-image{
-  width: 257px; height: 171px; margin-left: -3px; margin-right: -2px; margin-top: 0px;
-}
 h3 {
   text-align: center; margin-bottom: 0;
 }

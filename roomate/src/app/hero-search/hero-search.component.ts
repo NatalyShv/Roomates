@@ -25,6 +25,11 @@ export class HeroSearchComponent implements OnInit {
     this.searchTerms.next(term);
   }
 
+  myTypeScriptFunction(): void
+  {
+
+  }
+
   ngOnInit(): void {
     this.heroes$ = this.searchTerms.pipe(
       // wait 300ms after each keystroke before considering the term

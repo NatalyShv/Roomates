@@ -1,7 +1,17 @@
-<div id="search-component">
-  <h4>Hero Search</h4>
+<div id="search-component" dir="rtl">
+  <h4>סינונים:</h4>
 
   <input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+
+  <div>
+    <span>חיות: </span>
+    <img src="src/app/images/no-animals.png" /><img src="src/app/images/animals.png" />
+  </div>
+  <div>
+    <span>עישון: </span>
+    <img src="src/app/images/no-smoking.png" />
+    <img src="src/app/images/smoking.png" />
+  </div>
 
   <ul class="search-result">
     <li *ngFor="let hero of heroes$ | async" >
@@ -10,4 +20,6 @@
       </a>
     </li>
   </ul>
+
+
 </div>
