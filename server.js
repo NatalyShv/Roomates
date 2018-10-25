@@ -6,7 +6,7 @@ var serveStatic = require('serve-static');
 
 app.get('/', function(req, res) {
         console.log(__dirname);
-    res.sendFile(path.join('roomate/src/index.html'));
+    res.sendFile(path.join('roomate/src/app/app.component.html'));
 });
 
 app.get('/app', function(req, res) {
