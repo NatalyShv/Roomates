@@ -4,7 +4,7 @@ var path = require('path');
 var connect = require('connect');
 var serveStatic = require('serve-static');
     
-process.env.NODE_ENV= "development"
+
 
 console.log('V1.1');
 
