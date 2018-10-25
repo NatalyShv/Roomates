@@ -5,6 +5,11 @@ var connect = require('connect');
 var serveStatic = require('serve-static');
 
 app.get('/', function(req, res) {
+        console.log(__dirname);
+    res.sendFile(path.join('roomate/src/index.html'));
+});
+
+app.get('/app', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
