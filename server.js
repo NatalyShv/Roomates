@@ -16,6 +16,4 @@ app.get('/app', function(req, res) {
     res.sendFile(path.join('roomate/src/app/app.component.html'));
 });
 
-connect().use(serveStatic('roomate/src')).listen(8080, function(){
-    console.log('Server running on 8080...');
-});
+app.use('/roomates', express.static('roomate/'));
