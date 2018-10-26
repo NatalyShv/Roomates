@@ -1,13 +1,17 @@
-FROM node:0.10.38
+# Create app directory
+WORKDIR /usr/src/app
 
-RUN mkdir /src
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available (npm@5+)
+COPY package*.json ./
 
-RUN npm install express-generator -g
-
-WORKDIR /src
-ADD app/package.json /src/package.json
 RUN npm install
+# If you are building your code for production
+# RUN npm install --only=production
+
+# Bundle app source
+COPY . .
 
 EXPOSE 8080
-
-CMD node app/bin/www
+CMD [ "npm", "start" ]
