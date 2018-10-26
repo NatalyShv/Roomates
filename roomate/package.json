@@ -46,6 +46,10 @@
     "serve-static": "^1.9.1",
     "tiny-lr": "^1.0.3"
   },
+   "engine": {
+    "node": "*",
+    "npm": "*"
+  },
    "scripts": {
     "start": "node server.js"
   }
